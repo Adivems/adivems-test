@@ -1,2 +1,1 @@
-# Test Project
-A simple test project with HTML and CSS.
+{"encoding": "base64", "content": "IyBUZXN0IFByb2plY3QKQSBzaW1wbGUgdGVzdCBwcm9qZWN0IHdpdGggSFRNTCBhbmQgQ1NTLg=="}
