@@ -5,91 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Test Page</title>
     <style>
-        /* Global styles */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
             padding-bottom: 60px;
-            background-color: #f8f9fa;
+            background: #f0f2f5;
         }
-
-        /* Header */
         header {
-            background-color: #0066cc;
+            background: linear-gradient(135deg, #0066cc, #004499);
             color: white;
+            padding: 2em;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav {
+            background: #004499;
             padding: 1em;
             text-align: center;
         }
-
-        /* Navigation */
-        nav {
-            background-color: #004499;
-            padding: 0.5em;
-            text-align: center;
-        }
-
         nav a {
             color: white;
             text-decoration: none;
             padding: 0.5em 1em;
             margin: 0 0.5em;
-            border-radius: 3px;
-            transition: background-color 0.3s;
+            border-radius: 4px;
+            transition: all 0.3s;
         }
-
         nav a:hover {
-            background-color: #003366;
-        }
-
-        /* Main content */
-        main {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2em;
-        }
-
-        .card {
-            background-color: white;
-            border-radius: 8px;
-            padding: 1.5em;
-            margin-bottom: 1.5em;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-        }
-
-        .card:hover {
+            background: #003366;
             transform: translateY(-2px);
         }
-
+        main {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 2em;
+            margin-bottom: 2em;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
         h2 {
             color: #0066cc;
-            margin-bottom: 0.5em;
+            margin-bottom: 1em;
         }
-
-        /* Buttons */
         .button {
             display: inline-block;
             padding: 0.75em 1.5em;
-            background-color: #0066cc;
+            background: #0066cc;
             color: white;
             text-decoration: none;
             border-radius: 4px;
-            transition: background-color 0.3s;
+            transition: all 0.3s;
+            margin-top: 1em;
         }
-
         .button:hover {
-            background-color: #004499;
+            background: #004499;
+            transform: translateY(-2px);
         }
-
-        /* Footer */
         footer {
-            background-color: #333;
+            background: #333;
             color: white;
             text-align: center;
             padding: 1em;
@@ -101,7 +88,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Enhanced Test Page</h1>
+        <h1>Welcome to Our Enhanced Page</h1>
     </header>
 
     <nav>
@@ -114,19 +101,19 @@
     <main>
         <section class="card">
             <h2>About Us</h2>
-            <p>Welcome to our enhanced test page! We've added proper headers, navigation, and styled content sections to make the page more engaging.</p>
+            <p>Welcome to our enhanced website! We've created a modern, responsive design with smooth animations and an intuitive user interface.</p>
             <a href="#learn-more" class="button">Learn More</a>
         </section>
 
         <section class="card">
             <h2>Our Services</h2>
-            <p>We offer a wide range of services to meet your needs. Click below to explore our offerings.</p>
+            <p>Discover our comprehensive range of services designed to meet your needs. We focus on quality, innovation, and customer satisfaction.</p>
             <a href="#services" class="button">View Services</a>
         </section>
 
         <section class="card">
             <h2>Contact Us</h2>
-            <p>Get in touch with us for more information or assistance.</p>
+            <p>Ready to get started? Get in touch with our team for personalized assistance and support.</p>
             <a href="#contact" class="button">Contact Now</a>
         </section>
     </main>
